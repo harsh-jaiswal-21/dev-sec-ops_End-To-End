@@ -351,6 +351,12 @@ sudo su
 sudo usermod -aG docker jenkins
 sudo systemctl restart jenkins
 
+Make sure to check  if jenkins user is added to group
+tail -5 /etc/group
+
+
+
+
 
 ```
 
